@@ -15,16 +15,16 @@ buildNpmPackage (finalAttrs: {
   inherit nodejs;
 
   pname = "openscreen";
-  version = "1.3.0";
+  version = "1.3.0-unstable-2025-04-04";
 
   src = fetchFromGitHub {
     owner = "siddharthvaddem";
     repo = "openscreen";
-    tag = "v${finalAttrs.version}";
-    hash = "sha256-0L+SGbhKNvSH5IpjHjS5G1uhnoWV5oIaSs2mRSAl/mM=";
+    rev = "763c187f871de4be7e598bf2e7c35205b4b59e44";
+    hash = "sha256-fFycaYQwDJ2IMq7J1+9m0mFiuMdO8RYp10f/8GatHLs=";
   };
 
-  npmDepsHash = "sha256-pKfOxRzVfMNVHxA9oM9naWz024api8jxiTJwy0+6W9A=";
+  npmDepsHash = "sha256-V8FzrniM2iXddS6ZvphHAu88N534udFzbVP4FnNvBSw=";
 
   npmRebuildFlags = [ "--ignore-scripts" ];
 

@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://nixos.org"><img src="https://img.shields.io/badge/Nix_Flake-5277C3?logo=nixos&logoColor=white" alt="Nix Flake" /></a>
-  <a href="https://github.com/siddharthvaddem/openscreen/releases/tag/v1.3.0"><img src="https://img.shields.io/badge/OpenScreen-v1.3.0-blue" alt="OpenScreen Version" /></a>
+  <a href="https://github.com/siddharthvaddem/openscreen"><img src="https://img.shields.io/badge/OpenScreen-v1.3.0--unstable-blue" alt="OpenScreen Version" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" /></a>
 </p>
 
