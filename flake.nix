@@ -23,7 +23,7 @@
           pkgs = nixpkgs.legacyPackages.${system};
         in
         {
-          openscreen = pkgs.callPackage ./package.nix { };
+          openscreen = pkgs.callPackage ./package.nix { electron = pkgs.electron_40; };
           default = self.packages.${system}.openscreen;
         }
       );
